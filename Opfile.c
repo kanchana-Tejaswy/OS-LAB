@@ -11,7 +11,7 @@
       int f1, f2;
      char c, strin[100];
 
-   f1 = open("data_mokshada", O_RDWR | O_CREAT | O_TRUNC, 0644);
+   f1 = open("data_TEJA", O_RDWR | O_CREAT | O_TRUNC, 0644);
 
     while ((c = getchar()) != '\n') {
         strin[i++] = c;
