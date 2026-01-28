@@ -21,7 +21,7 @@
     write(f1, strin, i);
     close(f1);
 
-    f2 = open("data_mokshada", O_RDONLY);
+    f2 = open("data_TEJA", O_RDONLY);
      read(f2, strin, i);
     strin[i] = '\0';
 
